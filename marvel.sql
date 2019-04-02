@@ -77,3 +77,6 @@ UPDATE movies SET show_time = '17:20' WHERE id = 16;
 
 -- Q10
 DELETE FROM people WHERE id = 17 + 18 + 19;
+DELETE FROM people WHERE id = (17,18,19);
+DELETE FROM people WHERE id >= 2;
+
